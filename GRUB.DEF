@@ -1,0 +1,8 @@
+GRUB_DEFAULT=0
+GRUB_TIMEOUT=0
+GRUB_HIDDEN_TIMEOUT=0
+GRUB_HIDDEN_TIMEOUT_QUIET=true
+GRUB_RECORDFAIL_TIMEOUT=$GRUB_TIMEOUT
+GRUB_DISTRIBUTOR="Arch"
+GRUB_CMDLINE_LINUX_DEFAULT="quiet splash loglevel=3 rd.udev.log-priority=3 vt.global_cursor_default=0 i915.enable_guc=2 i915.enable_fbc=1 i915.fastboot=1 rd.plymouth=0 plymouth.enable=0"
+GRUB_CMDLINE_LINUX=""
